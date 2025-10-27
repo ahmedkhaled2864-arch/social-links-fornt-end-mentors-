@@ -61,5 +61,56 @@ a{
 a :hover{
     background-color: hsl(75, 94%, 57%);
 }
- 
 
+.attribution a   {
+    color:  hsl(228, 45%, 44%);
+}
+.attribution p{
+    color: white;
+}
+.attribution {
+    margin-left: 500px;
+} 
+ 
+@media (main-width:320px) and (max-width:400px){
+    .card{
+        width: 80%;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+    }
+    .name{
+        font-size: 1.1rem;
+    }
+    .intro{
+        font-size: 0.85rem;
+    }
+    ul li a{
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+    footer{
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+    footer a{
+        text-decoration: none;
+
+    }
+    footer{
+        font-size: 0.7rem;
+        padding:0 1rem;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        main-height:100vh;
+    }
+
+}
